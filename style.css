@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Red+Hat+Display:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Red Hat Display", sans-serif;
+}
+hr {
+  height: 0px;
+  border: none;
+  border-top: 0.1px solid hsl(215, 66%, 75%);
+  margin: 0rem 0.2rem;
+}
+.container {
+  display: flex;
+  min-height: 96vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > div {
+  padding: 1.3rem;
+  width: 20rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 0px 20px 15px hsl(217, 45%, 10%);
+}
+.container > div > h2 {
+  color: white;
+  margin:1rem 0rem;
+}
+.container:hover h2 {
+    cursor:pointer;
+}
+.container > div > p {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 1rem;
+}
+.content{
+    display:flex;
+    margin-bottom: 1.5rem;
+}
+.content > div {
+    flex:1;
+    display: flex;
+     
+}
+.start{
+    justify-content:flex-start; 
+}
+.end{
+    justify-content:flex-end;
+}
+.inline {
+    display:inline-block;
+
+}
+.content > div > h4 {
+    color:hsl(178, 100%, 50%);
+    margin-left:0.5rem; 
+}
+
+.content > div > p{
+    color: hsl(215, 51%, 70%);
+    margin-left:0.5rem; 
+
+}
+.avatar-container{
+    display:flex;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.avatar-container > p{
+    color: hsl(215, 51%, 70%);
+}
+.avatar-container > p > span {
+    color: white;
+}
+.avatar-container:hover span{
+    cursor:pointer;
+}
+.avatar{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    border:1px solid white;
+    margin-right: 8px;
+}
+
